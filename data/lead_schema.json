@@ -1,0 +1,12 @@
+{
+  "lead_id": "string",
+  "business_name": "string",
+  "contact_name": "string",
+  "email": "string",
+  "service_interest": "string",
+  "timeline": "string",
+  "lead_score": "number",
+  "status": "new | qualified | needs_info | not_fit",
+  "notes": "string"
+}
+

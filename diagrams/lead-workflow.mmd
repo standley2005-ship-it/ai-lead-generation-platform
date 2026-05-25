@@ -1,0 +1,9 @@
+flowchart TD
+    A[Lead Source] --> B[Intake Form or Import]
+    B --> C[Validate Required Fields]
+    C --> D[Score Lead Fit]
+    D --> E{Qualified?}
+    E -->|Yes| F[Follow-up Queue]
+    E -->|Needs Info| G[Request More Details]
+    E -->|No| H[Archive or Nurture]
+
